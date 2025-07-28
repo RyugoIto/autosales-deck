@@ -1,0 +1,6 @@
+```text
+click==8.1.7
+markdown2==2.4.13
+pdfkit==1.0.0
+openai==1.22.0
+python-dotenv==1.0.1
