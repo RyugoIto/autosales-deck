@@ -1,2 +1,14 @@
 # AutoSales Deck
-markdown\n# AutoSales Deck\n\n## 何ができる？\n個人事業/開発者の提案資料を **30分→3分** に短縮する CLI。\n構成生成→PDF 出力までワンコマンドで完了します。\n\n## インストール（MVP）\nbash\npip install -r requirements.txt # まだ空でも OK\npython cli.py --theme basic --slides 5\n```\n\n## MVP 機能（v0.1）\n1. GPT でスライド構成を生成（Markdown）\n2. Markdown → PDF（透かし入り / Basic テーマ）\n3. スライド上限 5 枚（無料版仕様）\n\n## 無料 ↔ 有料 の違い（予定）\n
+
+## 何ができる？
+個人事業 / 開発者の提案資料を **30分 → 3分** に短縮する CLI。  
+入力 → Markdown 構成生成 → PDF 出力まで **ワンコマンドで完了** します。
+
+## インストール（MVP）
+
+```bash
+# 依存ライブラリをインストール
+pip install -r requirements.txt
+
+# 例：スライドを 5 枚で生成
+python cli.py --theme basic --slides 5
